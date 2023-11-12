@@ -43,8 +43,6 @@ create or replace synonym &apex_user_name..sqale_characteristics for occ.sqale_c
 --------------------------------------------------------------------------------
 prompt >>> install application
 
---alter session set current_schema=&apex_user_name;
-
 declare
   l_workspace_id apex_workspaces.workspace_id%type;
 begin
