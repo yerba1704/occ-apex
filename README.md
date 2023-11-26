@@ -14,6 +14,8 @@ To remove the application run the script `admin_uninstall.sql`.
 
 A demo application is [here](https://g1cd48969ef15f7-db2021.adb.eu-frankfurt-1.oraclecloudapps.com/ords/f?p=777) available.
 
+![Demo application](occ-apex-gui.gif?raw=true "GUI for ora* CODECOP framework")
+
 ## Version History
 
 November 1, 2023
