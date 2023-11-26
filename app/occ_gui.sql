@@ -33,7 +33,7 @@ prompt APPLICATION 777 - OCC GUI
 -- Application Export:
 --   Application:     777
 --   Name:            OCC GUI
---   Date and Time:   14:21 Sunday November 26, 2023
+--   Date and Time:   14:51 Sunday November 26, 2023
 --   Exported By:     APEXDATA
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -90,7 +90,7 @@ wwv_imp_workspace.create_flow(
  p_id=>wwv_flow.g_flow_id
 ,p_owner=>nvl(wwv_flow_application_install.get_schema,'APEXDATA')
 ,p_name=>nvl(wwv_flow_application_install.get_application_name,'OCC GUI')
-,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'OCC_GUI779777')
+,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'OCC_GUI')
 ,p_page_view_logging=>'YES'
 ,p_page_protection_enabled_y_n=>'Y'
 ,p_checksum_salt=>'63CF5C41F10EA552CA26B9D619558C23E8CEE022D13F509555929B8F2228C288'
@@ -126,7 +126,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_string_01=>'APP_NAME'
 ,p_substitution_value_01=>'OCC GUI'
 ,p_last_updated_by=>'APEXDATA'
-,p_last_upd_yyyymmddhh24miss=>'20231126141548'
+,p_last_upd_yyyymmddhh24miss=>'20231126145018'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>11
 ,p_print_server_type=>'NATIVE'
