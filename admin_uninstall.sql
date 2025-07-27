@@ -3,9 +3,9 @@ clear screen
 define apex_user_name = apexdata
 define apex_application_id = 777
 
-  /************************************/
- /** INSTALL ora*CODECOP (OCC-APEX) **/
-/************************************/
+  /**************************************/
+ /** UNINSTALL ora*CODECOP (OCC-APEX) **/
+/**************************************/
 
 whenever sqlerror exit failure rollback
 whenever oserror exit failure rollback
